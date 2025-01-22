@@ -1,6 +1,7 @@
 import React from 'react'
 import { areaData, careData } from '../helper/Helper'
 import Logo from './../../asset/png/Logo.png'
+import { FaceIcon, InstIcon, PinIcon, TwIcon } from '../helper/Icon'
 
 function Footer() {
   return (
@@ -27,7 +28,20 @@ function Footer() {
                 </ul>))}
             </div></div>
         </div>
-    </div></div>
+    </div>
+    <div className='mt-[66px] lg:mt-[88px] border-t border-[#000]/[0.15] pt-[39px] pb-[27px]'>
+<div className='max-w-[1466px] px-4 sm:px-6 lg:px-8 xl:px-12 mx-auto flex justify-around md:justify-between gap-3 flex-wrap md:flex-nowrap '>
+    <p className='text-base font-light text-[#000]/[0.8]'>Designed By  Lazybinary</p>
+    <p className='text-base font-light text-[#000]/[0.8]'>Copyright @2021. All rights Reserved</p>
+    <div className='flex gap-6'>
+        <InstIcon/>
+        <TwIcon/>
+        <FaceIcon/>
+        <PinIcon/>
+    </div>
+</div>
+    </div>
+    </div>
   )
 }
 

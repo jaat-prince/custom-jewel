@@ -9,3 +9,8 @@ box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.15);
 .card:hover .card-bt svg path{
     stroke: #FFF;
 }
+.group:hover svg path{ 
+    fill: #000;
+    opacity: 100;
+    transition: all ease-in-out 0.7;
+}
