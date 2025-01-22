@@ -5,6 +5,10 @@ import shop from './../../asset/png/neckles.png'
 import arrow from './../../asset/png/exchange.png'
 import gift from './../../asset/png/gift.png'
 import home from './../../asset/png/store.png'
+import charm from './../../asset/png/charm-1.png'
+import char from './../../asset/png/charm-2.png'
+import bangle from './../../asset/png/bangle-1.png'
+import bangl from './../../asset/png/bangle-2.png'
 export const navData = [
   {
     title: "Home",
@@ -49,4 +53,66 @@ export const careData = [
 export const areaData = [
  {title:"Terms"},
  {title:"Privacy Policy"},
+]
+export const looseData = [
+  {img:charm ,
+    number:"€ 5.99",
+    btn:"Add"
+  },
+  { img:char ,
+    number:"€ 5.99",
+    btn:"Add"
+  },
+  {img:charm ,
+    number:"€ 5.99",
+    btn:"Add"
+  },
+  { img:char ,
+    number:"€ 5.99",
+    btn:"Add"
+  },
+  {img:charm ,
+    number:"€ 5.99",
+    btn:"Add"
+  },
+  { img:char ,
+    number:"€ 5.99",
+    btn:"Add"
+  },
+  {img:charm ,
+    number:"€ 5.99",
+    btn:"Add"
+  },
+  { img:char ,
+    number:"€ 5.99",
+    btn:"Add"
+  },
+  {img:charm ,
+    number:"€ 5.99",
+    btn:"Add"
+  },
+  { img:char ,
+    number:"€ 5.99",
+    btn:"Add"
+  },
+]
+export const slideData = [
+  {img: bangle,
+    text:"Lorem Ipsum",
+  },
+  {img: bangl,
+    text:"Lorem Ipsum",
+  },
+  {img: bangle,
+    text:"Lorem Ipsum",
+  },
+  {img: bangl,
+    text:"Lorem Ipsum",
+  },
+  {img: bangle,
+    text:"Lorem Ipsum",
+  },
+  {img: bangl,
+    text:"Lorem Ipsum",
+  },
 ]
