@@ -9,6 +9,7 @@ import charm from './../../asset/png/charm-1.png'
 import char from './../../asset/png/charm-2.png'
 import bangle from './../../asset/png/bangle-1.png'
 import bangl from './../../asset/png/bangle-2.png'
+import { OrderIcon } from '../helper/Icon'
 export const navData = [
   {
     title: "Home",
@@ -24,14 +25,45 @@ export const navData = [
   },
 ];
 export const orderData = [
-  {icon:order },
-  {icon:orde },
-  {icon:ord },
+  {icon:order,
+    title:"Lorem ipsum dolor",
+    newprice:"€ 5.99",
+    subtitle:"Praesent volutpat libero vitae sem",
+    oldprice:"€ 8.99",
+    button:"Complile this one",
+    bticon:<OrderIcon/>,
+   },
+  {icon:ord,
+    title:"Lorem ipsum dolor",
+    newprice:"€ 5.99",
+    subtitle:"Praesent volutpat libero vitae sem",
+    oldprice:"€ 8.99",
+    button:"Complile this one",
+    bticon:<OrderIcon/>,
+   },
+  {icon:ord,
+    title:"Lorem ipsum dolor",
+    newprice:"€ 5.99",
+    subtitle:"Praesent volutpat libero vitae sem",
+    oldprice:"€ 8.99",
+    button:"Complile this one",
+    bticon:<OrderIcon/>,
+   },
 ]
 export const shopData = [
-  {icon:shop },
-  {icon:shop },
-  {icon:shop },
+  {icon:shop,
+    title:"Lorem ipsum dolor",
+    button:"SHOP NOW",
+   },
+  {icon:shop,
+    title:"Lorem ipsum dolor",
+    button:"SHOP NOW",
+   },
+  {icon:shop,
+    title:"Lorem ipsum dolor",
+    button:"SHOP NOW",
+   },
+  
 ]
 
 export const serviceData = [

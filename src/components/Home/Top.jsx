@@ -1,19 +1,19 @@
-import React, { useRef, useState } from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import Swiper from 'swiper';
-import { Navigation} from 'swiper';
+import React from "react";
+
 import "swiper/css";  
 import "swiper/css/navigation";
 import { slideData } from "../helper/Helper";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation } from "swiper/modules";
+import Heading from "../common/Heading";
 
 
 function Top() {
   return (
     <div className="bg-black">
-      <div className="max-w-[1466px] mx-auto px-4 sm:px-8 md:px-10 lg:px-12">
-        <h2 className="text-2xl sm:text-3xl md:text-4xl xl:text-5xl font-normal leading-[105%] text-center mt-20 md:mt-24 lg:mt-28 2xl:mt-32 pt-12 md:pt-14 play text-white">
-          Top Picks
-        </h2>
+      <div className="max-w-[1466px] mx-auto px-4 sm:px-8 md:px-10 lg:px-12  mt-20 md:mt-24 lg:mt-28 2xl:mt-32 pt-12 md:pt-14">
+        
+        <Heading title={"Top Picks"} hclassName={"text-[#fff]"}/>
         <Swiper
           slidesPerView={6}
           spaceBetween={30}
@@ -50,7 +50,7 @@ function Top() {
           {slideData.map((item, index) => (
             <SwiperSlide key={index} className="text-white text-center mt-16 lg:mt-20">
               <div className="relative overflow-hidden after:content-[''] after:bg-[#000]/[0.5] after:absolute after:w-full after:h-full after:top-0 after:left-full after:bottom-0 after:transition-all after:duration-700 after:ease-in-out after:hover:left-0 image-item group flex justify-center items-center text-center">
-                <span className="absolute justify-center text-center flex items-center bg-white hidden duration-700 z-[11]">
+                <span className="absolute justify-center text-center flex items-center bg-white opacity-0 group-hover:opacity-100 duration-700 z-[11]">
                   <a
                     className="text-black bg-white py-2.5 px-6 fs-16 font-normal leading-[105%] text-black"
                     href="/"

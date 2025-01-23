@@ -1,14 +1,13 @@
 import React from "react";
 import { looseData } from "../helper/Helper";
+import Heading from "../common/Heading";
 
 
 function Loose() {
   return (
-    <div className="max-w-[1466px] mx-auto px-4 sm:px-8 md:px-10 lg:px-12">
-      <h2 className="text-2xl sm:text-3xl md:text-4xl xl:text-5xl font-normal leading-[105%] text-center mt-16 sm:mt-20 md:mt-24 lg:mt-28 mb-10 sm:mb-12 md:mb-14 lg:mb-16 pb-2 play">
-        Loose Charms
-      </h2>
-      <div className="flex flex-wrap justify-center xl:justify-between gap-x-4 gap-y-6">
+    <div className="max-w-[1466px] mx-auto px-4 sm:px-8 md:px-10 lg:px-12 mt-[70px] md:mt-[90px] lg:mt-[112px]">
+      <Heading title={"Loose Charms"}/>
+      <div className="flex flex-wrap justify-center xl:justify-between gap-x-4 gap-y-6 mt-[60px] md:mt-[73px]">
         {looseData.map((item, index) => (
           <div className="border-2 border-[rgba(0,0,0,0.10)]" key={index}>
             <div className="max-w-[260px] sm:max-w-[230px] lg:max-w-[257px] xl:max-w-[220px] min-[1330px]:max-w-[230px] min-[1380px]:max-w-[240px] 2xl:max-w-[257px] relative overflow-hidden after:content-[''] after:bg-[#000]/[0.5] after:absolute after:w-full after:h-full after:top-0 after:left-full after:bottom-0 after:transition-all after:duration-700 after:ease-in-out after:hover:left-0 image-item group flex flex-col justify-center text-center items-center">
